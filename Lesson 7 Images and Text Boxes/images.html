@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My YouTube Clone</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<style>
+    .thumbnail1 {
+        /* image unedited */
+    }
+
+    .thumbnail2 {
+        width: 300px; /* by default when you set the width the height also adjusts so the image also has the same deminsions meaning keeps the same shape */
+        border-width: 2px;
+        border-style: solid;
+        border-color: blue;
+    }
+
+    .thumbnail3 {
+        width: 300px; /*now the image is stretched */
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: goldenrod;
+    }
+
+    .thumbnail4 {
+        width: 300px;
+        height: 300px;
+        object-fit: cover; /* This tells the image to cover the 300px x 300px area  */
+        border-width: 2px;
+        border-style: solid;
+        border-color: green;
+    }
+
+    .thumbnail5 {
+        width: 300px;
+        height: 300px;
+        object-fit: cover; 
+        object-position: left;  /* to view the left side of the image */
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(50, 221, 244);
+    }
+
+    .thumbnail6 {
+        width: 300px;
+        height: 300px;
+        object-fit: cover; 
+        object-position: right;  /* to view the right side of the image */
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(7, 123, 94);
+    }
+
+    .thumbnail7 {
+        width: 300px;
+        height: 300px;
+        object-fit: contain; /* the image will shrink to fit the 300px x 300px dimension area */
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+    }
+
+    .thumbnail8 {
+        width: 300px;
+        height: 300px;
+        object-fit: contain; 
+        object-position: top;  /* we can place the image to the top or the bottom */
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(83, 4, 211);
+    }
+
+    .thumbnail9 {
+        width: 300px;
+        height: 300px;
+        object-fit: contain; 
+        object-position: bottom;  /* we can place the image to the bottom or the top */
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(147, 9, 69);
+    }
+
+</style>
+
+<body>
+    <img class="thumbnail1" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail2" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail3" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail4" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail5" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail6" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail7" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail8" src="thumbnail-1.webp" alt="">
+    <img class="thumbnail9" src="thumbnail-1.webp" alt="">
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Boxes</title>
+</head>
+<body>
+
+    <style>
+
+        .thumbnail {
+            width: 300px;
+        }
+
+        .search-bar {
+            font-size: 20px;
+        }
+
+        .thumbnail2 { /* turning the image into an a "block" element */
+            width: 300px;
+            display: block;
+        }
+
+        .search-bar2 {
+            font-size: 20px;
+        }
+
+        .video-title {
+            width:300px;
+        }
+
+
+        .video-author {
+            display: inline-block;
+        }
+    
+        .video-stats {
+            display: inline-block;
+        }
+
+        .video-author2,        
+        .video-stats2 { /* turning block elements into inline-block elements  */
+            display: inline-block;
+        }
+
+
+    </style>
+    
+    <body>
+        <img class="thumbnail" src="thumbnail-1.webp" alt="">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <!--  There are three types of elements in html a "block element" - a "inline-block element" and  "inline elements"  -->
+
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p> <!-- paragraphs by default are block elements meaning they take up the entire line -->
+
+        <p class="video-author" >Marques Brownlee</p>
+
+        <p class="video-stats" >3.4M views &#183 6 months ago</p>
+
+        <!-- inline-block elements only take up as much space as they need. ex. of inline-block elements are images and text boxes. they only take up the space that they need -->
+
+        <!-- inline elements appear in a line of text. the strong and span tags are examples of inline block elements -->
+
+        
+
+        <img class="thumbnail2" src="thumbnail-1.webp" alt="">
+        <input class="search-bar2" type="text" placeholder="Search">
+
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+
+        <p class="video-author2" >Marques Brownlee</p> <!-- video-author and video-stats are now inline-block elements -->
+
+        <p class="video-stats2" >3.4M views &#183 6 months ago</p>
+
+</body>
+</html>
